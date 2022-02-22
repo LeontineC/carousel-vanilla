@@ -53,8 +53,9 @@ body {
   height: 100%;
   border-radius: 10%;
   position: absolute;
+  display: none;
   opacity: 0;
-  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 5s ease-in-out;
 }
 
 .list-images.list-images-current {
